@@ -1,0 +1,13 @@
+.error-icon {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: red;
+    cursor: pointer;
+}
+
+.error-icon:hover + .tooltip {
+    display: block;
+}
